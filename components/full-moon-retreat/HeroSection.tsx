@@ -23,28 +23,38 @@ export function HeroSection() {
             Live Online Full Moon Retreat
           </p>
           <h1 className="font-serif text-4xl leading-tight text-[#F2EDE2] md:text-6xl">
-            Release What You’ve Been Holding — and Return to Your Truth
+            <span className="block">You’ve Been Holding a Lot.</span>
+            <span className="mt-1 block">This Is Where You Let It Go.</span>
           </h1>
           <p className="mt-6 text-lg text-[#F2EDE2] md:text-xl">
-            A 4-hour Full Moon retreat to help you regulate your nervous system, clear emotional
-            weight, and reconnect with your inner clarity — guided by Anna Brooke.
+            A live, 4-hour guided retreat to help you regulate your nervous system, release
+            emotional weight, and reconnect with your inner clarity — held in a safe, supportive
+            space.
           </p>
           <p className="mt-6 text-base text-[#F2EDE2] md:text-lg">
-            20+ years guiding people through life transitions, healing, and self-reconnection
+            <span className="block">
+              ✨ Guided by Anna Brooke — 20+ years supporting life transitions
+            </span>
+            <span className="mt-2 block">✨ Featured in Huffington Post, BuzzFeed, and Page Six</span>
           </p>
           <p className="mt-8 text-xl font-semibold text-[#F2EDE2] md:text-2xl">
             $125 — Live, Guided Online Experience
           </p>
+          <p className="mt-7 text-base text-[#F2EDE2] md:text-lg">
+            No experience needed. Just come as you are.
+          </p>
           <a
             href="#reserve"
-            className="mt-8 inline-flex rounded-xl bg-[#CE8F29] px-8 py-4 text-base font-semibold text-[#9B4D32] transition hover:brightness-95 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#F2EDE2] md:text-lg"
-            style={{ boxShadow: "0 12px 26px rgba(155,77,50,0.2)" }}
+            className="mt-7 inline-flex w-full justify-center rounded-xl bg-[#CE8F29] px-8 py-5 text-base font-semibold text-[#9B4D32] transition duration-200 hover:-translate-y-0.5 hover:scale-[1.01] hover:brightness-95 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#F2EDE2] sm:w-auto md:text-lg"
+            style={{ boxShadow: "0 14px 30px rgba(155,77,50,0.22)" }}
           >
-            Reserve Your Spot for the Full Moon Retreat
+            Reserve Your Spot — $125
           </a>
-          <p className="mt-5 text-sm text-[#F2EDE2] md:text-base">
-            ✨ Live guided experience   ✨ Join from home   ✨ Limited spots
-          </p>
+          <ul className="mt-5 space-y-2 text-sm text-[#F2EDE2] md:text-base">
+            <li>✔ Live, real-time experience (not pre-recorded)</li>
+            <li>✔ Join from home (camera optional)</li>
+            <li>✔ Intentionally small group for depth and safety</li>
+          </ul>
         </div>
       </div>
     </section>

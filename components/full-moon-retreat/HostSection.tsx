@@ -21,8 +21,9 @@ export function HostSection() {
         <div>
           <h2 className="font-serif text-3xl text-[#9B4D32] md:text-4xl">Meet Anna Brooke</h2>
           <p className="mt-6 text-lg text-[#9B4D32]">
-            Anna Brooke is an author, speaker, and healing arts practitioner with 20+ years of
-            experience helping people navigate life transitions and reconnect with themselves.
+            Anna Brooke has spent over 20 years guiding people through life’s most meaningful
+            transitions — helping them reconnect with themselves, find clarity, and move forward
+            with trust.
           </p>
           <p className="mt-5 text-lg text-[#9B4D32]">
             Her work has been featured in Huffington Post, BuzzFeed, and Page Six.

@@ -1,7 +1,7 @@
 const outcomes = [
-  "Feel calmer and more grounded",
-  "Release emotional tension",
-  "Gain clarity on your next steps",
+  "Feel your body settle and your mind quiet",
+  "Release emotional tension your body has been holding onto",
+  "Know what your next step actually is — and trust it",
   "Reconnect with your inner voice",
 ];
 
