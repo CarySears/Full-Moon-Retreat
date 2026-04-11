@@ -2,18 +2,21 @@ const testimonials = [
   {
     headline: "“I didn’t expect such a deep shift in just a few hours.”",
     body: "I left feeling lighter, clearer, and more like myself again.",
-    name: "Client Name",
+    name: "— [First Name], [Profession]",
+    attended: "Attended a recent Full Moon Retreat",
   },
   {
     headline:
       "“Anna creates a space where you feel completely safe to be honest with yourself.”",
     body: "That alone is transformative.",
-    name: "Client Name",
+    name: "— [First Name], [Profession]",
+    attended: "Attended a recent Full Moon Retreat",
   },
   {
     headline: "“I left feeling calmer, clearer, and more connected to what I truly needed.”",
     body: "This experience stayed with me long after it ended.",
-    name: "Client Name",
+    name: "— [First Name], [Profession]",
+    attended: "Attended a recent Full Moon Retreat",
   },
 ];
 
@@ -33,9 +36,10 @@ export function TestimonialsSection() {
             >
               <p className="text-lg font-semibold text-[#9B4D32]">{testimonial.headline}</p>
               <p className="mt-4 text-lg text-[#9B4D32]">{testimonial.body}</p>
-              <footer className="mt-5 text-sm font-semibold uppercase tracking-[0.12em] text-[#9B4D32]">
+              <footer className="mt-5 text-sm font-semibold text-[#9B4D32]">
                 {testimonial.name}
               </footer>
+              <p className="mt-2 text-sm text-[#9B4D32]">{testimonial.attended}</p>
             </blockquote>
           ))}
         </div>

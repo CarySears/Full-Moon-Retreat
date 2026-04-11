@@ -65,6 +65,9 @@ export function FaqSection() {
             );
           })}
         </div>
+        <p className="mt-8 text-center text-base text-[#9B4D32] md:text-lg">
+          No pressure. No expectations. Just space to show up as you are.
+        </p>
       </div>
     </section>
   );

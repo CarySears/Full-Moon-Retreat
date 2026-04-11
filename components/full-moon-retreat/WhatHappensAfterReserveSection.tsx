@@ -26,6 +26,7 @@ export function WhatHappensAfterReserveSection() {
         <p className="mt-8 text-lg text-[#9B4D32]">
           You’ll know exactly what to expect, so you can arrive feeling ready.
         </p>
+        <p className="mt-3 text-lg text-[#9B4D32]">No tech stress. No guesswork.</p>
       </div>
     </section>
   );

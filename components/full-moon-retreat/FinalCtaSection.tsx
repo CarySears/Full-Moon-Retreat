@@ -24,10 +24,18 @@ export function FinalCtaSection() {
           className="mt-8 inline-flex w-full justify-center rounded-xl bg-[#CE8F29] px-8 py-4 text-base font-semibold text-[#9B4D32] transition hover:brightness-95 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#9B4D32] sm:w-auto md:text-lg"
           style={{ boxShadow: "0 12px 26px rgba(155,77,50,0.16)" }}
         >
+          {/* Variant: Reserve My Spot Now — $125 */}
           Reserve My Spot — $125
         </a>
-        <p className="mt-5 text-base text-[#9B4D32]">Limited spots available</p>
+        <p className="mt-5 text-base text-[#9B4D32]">Takes 60 seconds to reserve your spot.</p>
+        <p className="mt-5 text-base text-[#9B4D32]">Limited spots available.</p>
+        <p className="mt-2 text-sm text-[#9B4D32] md:text-base">
+          You’ll receive instant confirmation + event details.
+        </p>
         <p className="mt-2 text-sm text-[#9B4D32] md:text-base">This experience is not recorded.</p>
+        <p className="mt-2 text-sm text-[#9B4D32] md:text-base">
+          You’ll leave with tools you can return to anytime.
+        </p>
       </div>
     </section>
   );

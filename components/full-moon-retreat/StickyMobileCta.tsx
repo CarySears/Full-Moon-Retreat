@@ -8,15 +8,15 @@ export function StickyMobileCta() {
         paddingBottom: "calc(0.75rem + env(safe-area-inset-bottom))",
       }}
     >
-      <div className="mx-auto flex w-full max-w-[1200px] items-center justify-between gap-3">
-        <p className="text-sm font-semibold text-[#9B4D32]">$125 — Live Online</p>
+      <div className="mx-auto flex w-full max-w-[1200px] flex-col items-center gap-2">
         <a
           href="#reserve"
-          className="inline-flex rounded-lg bg-[#CE8F29] px-5 py-2.5 text-sm font-semibold text-[#9B4D32] transition hover:brightness-95 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#9B4D32]"
-          aria-label="Reserve now"
+          className="inline-flex w-full justify-center rounded-lg bg-[#CE8F29] px-5 py-3 text-sm font-semibold text-[#9B4D32] transition hover:brightness-95 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#9B4D32]"
+          aria-label="Reserve My Spot — $125"
         >
-          Reserve Now
+          Reserve My Spot — $125
         </a>
+        <p className="text-xs text-[#9B4D32]">Takes 60 seconds • Limited spots</p>
       </div>
     </div>
   );

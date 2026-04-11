@@ -38,8 +38,8 @@ export function HeroSection() {
             <span className="mt-2 block">Featured in Huffington Post, BuzzFeed, and Page Six</span>
           </p>
           <p className="mt-4 text-base text-[#F2EDE2] md:text-lg">
-            <span className="block">Join us live:</span>
-            <span className="block">🗓 Sat, May 2 • 11am–3pm EDT • Online</span>
+            <span className="block">Join us live (one-time event):</span>
+            <span className="block">Sat, May 2 • 11am–3pm EDT • Online</span>
           </p>
           <p className="mt-8 text-xl font-semibold text-[#F2EDE2] md:text-2xl">
             $125 — Live, Guided Online Experience
@@ -52,10 +52,15 @@ export function HeroSection() {
             className="mt-7 inline-flex w-full justify-center rounded-xl bg-[#CE8F29] px-8 py-5 text-base font-semibold text-[#9B4D32] transition duration-200 hover:-translate-y-0.5 hover:scale-[1.01] hover:brightness-95 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#F2EDE2] sm:w-auto md:text-lg"
             style={{ boxShadow: "0 14px 30px rgba(155,77,50,0.22)" }}
           >
+            {/* Variant: Reserve My Spot Now — $125 */}
             Reserve My Spot — $125
           </a>
           <p className="mt-4 text-sm text-[#F2EDE2] md:text-base">
             Takes 60 seconds to reserve your spot.
+          </p>
+          <p className="mt-1 text-sm text-[#F2EDE2] md:text-base">Limited spots available.</p>
+          <p className="mt-1 text-sm text-[#F2EDE2] md:text-base">
+            You’ll receive instant confirmation + event details.
           </p>
           <ul className="mt-5 space-y-2 text-sm text-[#F2EDE2] md:text-base">
             <li>✔ Live, real-time experience (not pre-recorded)</li>
