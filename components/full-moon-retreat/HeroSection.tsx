@@ -19,6 +19,13 @@ export function HeroSection() {
       />
       <div className="relative z-10 mx-auto w-full max-w-[1200px] px-6 py-20 text-center md:px-10">
         <div className="mx-auto max-w-[850px]">
+          <Image
+            src="https://assets.cdn.filesafe.space/jNqy5QsBJRJ9cjslwRNp/media/69c538d7bfec12bbe62784d2.jpg"
+            alt="Retreat logo"
+            width={192}
+            height={192}
+            className="mx-auto mb-8 h-auto w-40 md:w-48"
+          />
           <p className="mb-6 text-sm font-semibold uppercase tracking-[0.2em] text-[#F2EDE2] md:text-base">
             Live Online Full Moon Retreat
           </p>
