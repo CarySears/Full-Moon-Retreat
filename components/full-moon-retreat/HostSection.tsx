@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const trustItems = [
   "20+ years of experience",
   "Author, speaker, and healing arts practitioner",
@@ -9,10 +11,11 @@ export function HostSection() {
     <section className="bg-[#F2EDE2] py-14 md:py-20">
       <div className="mx-auto grid w-full max-w-[1200px] gap-10 px-6 md:grid-cols-2 md:items-center md:gap-14 md:px-10">
         <div className="relative mx-auto aspect-[4/5] w-full max-w-[460px] overflow-hidden rounded-3xl">
-          <img
+          <Image
             src="https://assets.cdn.filesafe.space/jNqy5QsBJRJ9cjslwRNp/media/684dd3a28bc25a3f9d44af4d.png"
             alt="Portrait of Anna Brooke"
-            className="h-full w-full object-cover"
+            fill
+            className="object-cover"
           />
         </div>
         <div>
