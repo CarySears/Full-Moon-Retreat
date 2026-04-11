@@ -17,15 +17,15 @@ export function HeroSection() {
             "linear-gradient(180deg, rgba(155,77,50,0.68) 0%, rgba(226,119,86,0.52) 45%, rgba(243,217,208,0.48) 100%)",
         }}
       />
+      <Image
+        src="https://assets.cdn.filesafe.space/jNqy5QsBJRJ9cjslwRNp/media/69c538d7bfec12bbe62784d2.png"
+        alt="Retreat logo"
+        width={56}
+        height={56}
+        className="absolute left-8 top-8 z-20 w-[44px] opacity-95 md:w-[56px]"
+      />
       <div className="relative z-10 mx-auto w-full max-w-[1200px] px-6 py-20 text-center md:px-10">
         <div className="mx-auto max-w-[850px]">
-          <Image
-            src="https://assets.cdn.filesafe.space/jNqy5QsBJRJ9cjslwRNp/media/69c538d7bfec12bbe62784d2.jpg"
-            alt="Retreat logo"
-            width={192}
-            height={192}
-            className="mx-auto mb-8 h-auto w-40 md:w-48"
-          />
           <p className="mb-6 text-sm font-semibold uppercase tracking-[0.2em] text-[#F2EDE2] md:text-base">
             Live Online Full Moon Retreat
           </p>
