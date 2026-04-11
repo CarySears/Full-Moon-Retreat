@@ -18,7 +18,7 @@ export function HeroSection() {
         }}
       />
       <Image
-        src="https://assets.cdn.filesafe.space/jNqy5QsBJRJ9cjslwRNp/media/69c538d7bfec12bbe62784d2.png"
+        src="/images/retreat-logo.jpg"
         alt="Retreat logo"
         width={56}
         height={56}
