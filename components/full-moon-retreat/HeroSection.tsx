@@ -35,6 +35,7 @@ export function HeroSection() {
           <p className="mt-8 text-lg text-[#F2EDE2] md:text-xl">
             A live, guided 4-hour experience to release emotional weight and reconnect with yourself.
           </p>
+          <p className="mt-8 text-base text-[#F2EDE2] md:text-lg">May 2 • 11am–3pm EDT</p>
           <p className="mt-8 text-base text-[#F2EDE2] md:text-lg">
             <span className="block">Guided by Anna Brooke — 20+ years supporting life transitions</span>
             <span className="block">Featured in Huffington Post, BuzzFeed, and Page Six</span>
