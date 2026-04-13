@@ -22,7 +22,7 @@ export function HeroSection() {
         alt="Retreat logo"
         width={56}
         height={56}
-        className="absolute left-8 top-8 z-[5] w-[44px] opacity-95 md:w-[56px]"
+        className="absolute left-8 top-8 z-0 w-[44px] opacity-95 md:w-[56px]"
       />
       <div className="relative z-10 mx-auto w-full max-w-[1200px] px-6 py-20 text-center md:px-10">
         <div className="mx-auto max-w-[850px]">
