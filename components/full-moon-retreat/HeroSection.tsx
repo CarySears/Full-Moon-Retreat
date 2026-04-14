@@ -30,24 +30,24 @@ export function HeroSection() {
         </span>
       </div>
       <div className="relative z-10 mx-auto w-full max-w-[1200px] px-6 pb-20 pt-28 text-center md:px-10 md:py-20">
-        <div className="mx-auto max-w-[850px]">
+        <div className="mx-auto max-w-[850px] rounded-3xl bg-[linear-gradient(180deg,rgba(73,31,19,0.24)_0%,rgba(73,31,19,0.14)_55%,rgba(73,31,19,0.08)_100%)] px-5 py-6 shadow-[0_14px_34px_rgba(73,31,19,0.22)] md:px-10 md:py-9">
           <p className="mb-6 text-sm font-semibold uppercase tracking-[0.2em] text-[#F2EDE2] md:text-base">
             Live Online Full Moon Retreat
           </p>
-          <h1 className="font-serif text-4xl font-semibold leading-tight text-[#F2EDE2] [text-shadow:0_5px_20px_rgba(0,0,0,0.58),0_1px_2px_rgba(0,0,0,0.45)] md:text-6xl">
+          <h1 className="font-serif text-4xl font-semibold leading-tight text-[#F2EDE2] [text-shadow:0_6px_24px_rgba(0,0,0,0.62),0_2px_3px_rgba(0,0,0,0.5)] md:text-6xl">
             You’ve Been Holding a Lot. This Is Where You Let It Go.
           </h1>
-          <p className="mt-8 text-lg font-medium text-[#F2EDE2] [text-shadow:0_2px_10px_rgba(0,0,0,0.45)] md:text-xl">
+          <p className="mt-8 text-lg font-medium text-[#F2EDE2] [text-shadow:0_3px_12px_rgba(0,0,0,0.52)] md:text-xl">
             A live, guided 4-hour experience to release emotional weight and reconnect with yourself.
           </p>
-          <p className="mt-8 text-base font-semibold text-[#F2EDE2] [text-shadow:0_2px_9px_rgba(0,0,0,0.45)] md:text-lg">
+          <p className="mt-8 text-base font-semibold text-[#F2EDE2] [text-shadow:0_3px_10px_rgba(0,0,0,0.52)] md:text-lg">
             May 2 • 11am–3pm EDT
           </p>
-          <p className="mt-8 text-base font-medium text-[#F2EDE2] [text-shadow:0_2px_10px_rgba(0,0,0,0.45)] md:text-lg">
+          <p className="mt-8 text-base font-medium text-[#F2EDE2] [text-shadow:0_3px_12px_rgba(0,0,0,0.52)] md:text-lg">
             <span className="block">Guided by Anna Brooke, 20+ years supporting life transitions</span>
             <span className="block">Featured in Huffington Post, BuzzFeed, and Page Six</span>
           </p>
-          <p className="mt-8 text-xl font-semibold text-[#F2EDE2] [text-shadow:0_3px_12px_rgba(0,0,0,0.5)] md:text-2xl">
+          <p className="mt-8 text-xl font-semibold text-[#F2EDE2] [text-shadow:0_4px_14px_rgba(0,0,0,0.56)] md:text-2xl">
             Spots are intentionally limited...
           </p>
           <a
