@@ -7,7 +7,7 @@ const reserveChecklist = [
 
 export function WhatHappensAfterReserveSection() {
   return (
-    <section className="bg-[#F2EDE2] py-14 md:py-20">
+    <section className="bg-[#F2EDE2] pb-14 pt-8 md:pb-20 md:pt-12">
       <div className="mx-auto w-full max-w-[900px] px-6 text-center md:px-10">
         <p className="text-base font-semibold text-[#9B4D32] md:text-lg">
           Spots are intentionally limited to keep this experience intimate.
