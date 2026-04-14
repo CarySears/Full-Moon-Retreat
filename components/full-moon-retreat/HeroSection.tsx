@@ -17,13 +17,18 @@ export function HeroSection() {
             "linear-gradient(180deg, rgba(155,77,50,0.68) 0%, rgba(226,119,86,0.52) 45%, rgba(243,217,208,0.48) 100%)",
         }}
       />
-      <Image
-        src="/images/retreat-logo.png"
-        alt="Retreat logo"
-        width={56}
-        height={56}
-        className="absolute left-8 top-8 z-20 w-[44px] opacity-95 md:z-0 md:w-[56px]"
-      />
+      <div className="absolute left-8 top-8 z-20 flex items-center gap-3 md:z-0">
+        <Image
+          src="/images/retreat-logo.png"
+          alt="Retreat logo"
+          width={56}
+          height={56}
+          className="w-[44px] opacity-95 md:w-[56px]"
+        />
+        <span className="font-sans text-[22px] font-semibold tracking-tight text-[#1D5A63] md:text-[42px]">
+          Anna Brooke Healing
+        </span>
+      </div>
       <div className="relative z-10 mx-auto w-full max-w-[1200px] px-6 pb-20 pt-28 text-center md:px-10 md:py-20">
         <div className="mx-auto max-w-[850px]">
           <p className="mb-6 text-sm font-semibold uppercase tracking-[0.2em] text-[#F2EDE2] md:text-base">
