@@ -36,7 +36,7 @@ export function HeroSection() {
           </p>
           <h1 className="font-serif text-4xl font-semibold leading-tight text-[#F2EDE2] [text-shadow:0_5px_20px_rgba(0,0,0,0.58),0_1px_2px_rgba(0,0,0,0.45)] md:text-6xl">
             <span className="block">You’ve Been Holding a Lot.</span>
-            <span className="block md:whitespace-nowrap">This Is Where You Let It Go — Safely.</span>
+            <span className="block">This Is Where You Let It Go - Safely.</span>
           </h1>
           <p className="mt-8 text-lg font-medium text-[#F2EDE2] [text-shadow:0_2px_10px_rgba(0,0,0,0.45)] md:text-xl">
             A live, guided 4-hour experience to release emotional weight and reconnect with yourself.
@@ -54,7 +54,7 @@ export function HeroSection() {
             Takes 60 seconds • Instant confirmation
           </p>
           <p className="mt-8 text-base font-medium text-[#F2EDE2] [text-shadow:0_2px_10px_rgba(0,0,0,0.45)] md:text-lg">
-            <span className="block">Guided by Anna Brooke — 20+ years supporting life transitions</span>
+            <span className="block">Guided by Anna Brooke, 20+ years supporting life transitions</span>
             <span className="block">Featured in Huffington Post, BuzzFeed, and Page Six</span>
           </p>
           <p className="mt-8 text-xl font-semibold text-[#F2EDE2] [text-shadow:0_3px_12px_rgba(0,0,0,0.5)] md:text-2xl">

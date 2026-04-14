@@ -10,7 +10,7 @@ export function FinalCtaSection() {
           Your inner guidance already knows the way forward.
         </p>
         <p className="mt-6 text-lg text-[#9B4D32] md:text-xl">
-          If you’ve been waiting for the right moment — this is it.
+          If you’ve been waiting for the right moment - this is it.
         </p>
         <p className="mt-8 text-xl font-semibold text-[#9B4D32] md:text-2xl">
           $125 - Live, Guided Online Experience
@@ -28,11 +28,11 @@ export function FinalCtaSection() {
         <p className="mt-5 text-base text-[#9B4D32]">
           Spots are intentionally limited to keep this experience intimate.
         </p>
-        <p className="mt-2 text-sm text-[#9B4D32] md:text-base">
+        <p className="mt-4 text-sm text-[#9B4D32] md:text-base">
           You’ll receive instant confirmation + event details.
         </p>
-        <p className="mt-2 text-sm text-[#9B4D32] md:text-base">This experience is not recorded.</p>
-        <p className="mt-2 text-sm text-[#9B4D32] md:text-base">
+        <p className="mt-4 text-sm text-[#9B4D32] md:text-base">This experience is not recorded.</p>
+        <p className="mt-4 text-sm text-[#9B4D32] md:text-base">
           You’ll leave with tools you can return to anytime.
         </p>
       </div>

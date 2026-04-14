@@ -2,7 +2,7 @@ const experienceItems = [
   "Gently release stored tension from your body",
   "Experience guided breathwork in a safe, supported way",
   "Reflect through self-inquiry that brings hidden truths into focus",
-  "Share only if it feels supportive — never because you have to",
+  "Share only if it feels supportive - never because you have to",
   "Use guided prompts to move forward with more clarity and intention",
   "Leave with personalized affirmations that support continued integration",
 ];

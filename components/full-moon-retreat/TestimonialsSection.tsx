@@ -1,22 +1,18 @@
 const testimonials = [
   {
-    body: "Anna is wonderful! I had an amazing experience during a breath class. Truly transformative and felt supported by Anna throughout the process. She really offers a safe, compassionate space to experience whatever it is you need to in that moment.",
-    headline: "Anna is wonderful!",
+    body: "I had an amazing experience during a breath class. Truly transformative and felt supported by Anna throughout the process. She really offers a safe, compassionate space to experience whatever it is you need to in that moment.",
+    headline: "Anna is Wonderful! ... She really offers a safe, compassionate space",
     name: "Emery M",
   },
   {
-    body: "I was carrying around stress for years. Between family challenges, moving, and Covid, I couldn’t quite get my bearings around removing stress-particularly the kind behind your eyes that lingers as a constant weight. After working with Anna, I was cleared of that stress. It is unbelievable! I have done everything from therapy to meditation, cutting out sugar, alcohol, caffeine, adding exercise - you name it, and I tried it. Anna’s work provided a breakthrough I could only dream of. Run, don’t walk, to make an appointment with her!",
-    headline: "I was carrying around stress for years.",
+    body: "Between family challenges, moving, and Covid, I couldn’t quite get my bearings around removing stress-particularly the kind behind your eyes that lingers as a constant weight. After working with Anna, I was cleared of that stress. It is unbelievable! I have done everything from therapy to meditation, cutting out sugar, alcohol, caffeine, adding exercise - you name it, and I tried it. Anna’s work provided a breakthrough I could only dream of. Run, don’t walk, to make an appointment with her!",
+    headline: "Anna’s work provided a breakthrough I could only dream of.",
     name: "Katherine M.",
   },
   {
-    body: "Anna is the best! She always brings so much positive, warm energy to the room and truly loves what she does. I would recommend her to anyone. Such an inspiration.",
-    headline: "Anna is the best!",
+    body: "She always brings so much positive, warm energy to the room and truly loves what she does. I would recommend her to anyone. Such an inspiration.",
+    headline: "Anna is the best! ... She always brings so much positive, warm energy to the room",
     name: "Christina B",
-  },
-  {
-    body: "I finally felt calm for the first time in months. I left with clarity on what I needed to do next.",
-    headline: "I finally felt calm for the first time in months.",
   },
 ];
 
@@ -34,7 +30,6 @@ export function TestimonialsSection() {
               className="rounded-2xl bg-[#F2EDE2] p-7"
               style={{ boxShadow: "0 10px 24px rgba(155,77,50,0.1)" }}
             >
-              <p className="text-base font-semibold tracking-[0.08em] text-[#CE8F29]">★★★★★</p>
               <p className="mt-4 text-lg font-semibold text-[#9B4D32]">{testimonial.headline}</p>
               <p className="mt-3 text-lg text-[#9B4D32]">{testimonial.body}</p>
               {testimonial.name ? (
@@ -42,6 +37,21 @@ export function TestimonialsSection() {
               ) : null}
             </blockquote>
           ))}
+        </div>
+        <div className="mt-8 text-center">
+          <p className="text-lg text-[#9B4D32]">
+            Join others who have experienced deep clarity and emotional release.
+          </p>
+          <p className="mt-4 text-sm text-[#9B4D32] md:text-base">Spots are intentionally limited...</p>
+          <a
+            href="#reserve"
+            className="mt-7 inline-flex w-full justify-center rounded-xl bg-[#CE8F29] px-9 py-[1.1rem] text-base font-semibold text-[#9B4D32] shadow-[0_12px_26px_rgba(155,77,50,0.16)] transition hover:-translate-y-[2px] hover:brightness-95 hover:shadow-[0_16px_30px_rgba(155,77,50,0.22)] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#9B4D32] sm:w-auto md:text-lg"
+          >
+            Save My Spot →
+          </a>
+          <p className="mt-4 text-sm text-[#9B4D32] md:text-base">
+            Takes 60 seconds • Instant confirmation
+          </p>
         </div>
       </div>
     </section>
