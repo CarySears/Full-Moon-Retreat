@@ -40,13 +40,22 @@ export default function FullMoonRetreatThankYouPage() {
           </p>
           <p className="mt-4 text-lg md:text-xl">
             Without support, it’s easy to leave with powerful insights, but slip back into old
-            patterns within days. This private 1:1 integration session with Anna gives you space to
-            slow down, process what surfaced, and begin turning it into something real in your life.
-            In this session, you’ll: * Get clarity on what’s actually coming up for you *
-            Understand what it means and where it’s pointing * Turn your insights into clear,
-            grounded next steps * Receive personalized guidance and support So instead of something
-            that felt meaningful in the moment, you leave with something that actually changes how
-            you move forward.
+            patterns within days.
+          </p>
+          <p className="mt-4 text-lg md:text-xl">
+            This private 1:1 integration session with Anna gives you space to slow down, process
+            what surfaced, and begin turning it into something real in your life.
+          </p>
+          <p className="mt-4 text-lg md:text-xl">In this session, you’ll:</p>
+          <ul className="mt-4 space-y-2 text-lg md:text-xl">
+            <li>• Get clarity on what’s actually coming up for you</li>
+            <li>• Understand what it means and where it’s pointing</li>
+            <li>• Turn your insights into clear, grounded next steps</li>
+            <li>• Receive personalized guidance and support</li>
+          </ul>
+          <p className="mt-4 text-lg md:text-xl">
+            So instead of something that felt meaningful in the moment, you leave with something
+            that actually changes how you move forward.
           </p>
           <p className="mt-4 text-base md:text-lg">Choose a time that works for you below.</p>
           <div className="mt-8 w-full">
