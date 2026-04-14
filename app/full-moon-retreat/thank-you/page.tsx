@@ -33,42 +33,46 @@ export default function FullMoonRetreatThankYouPage() {
         </section>
 
         <section className="mt-12 md:mt-16">
-          <h2 className="font-serif text-3xl md:text-4xl">Want support integrating this experience?</h2>
-          <p className="mt-6 text-lg md:text-xl">
-            Many people find the real shift happens after the retreat, when you begin applying what
-            came up.
-          </p>
-          <p className="mt-4 text-lg md:text-xl">
-            Without support, it’s easy to leave with powerful insights, but slip back into old
-            patterns within days.
-          </p>
-          <p className="mt-4 text-lg md:text-xl">
-            This private 1:1 integration session with Anna gives you space to slow down, process
-            what surfaced, and begin turning it into something real in your life.
-          </p>
-          <p className="mt-4 text-lg md:text-xl">In this session, you’ll:</p>
-          <ul className="mt-4 space-y-2 text-lg md:text-xl">
-            <li>• Get clarity on what’s actually coming up for you</li>
-            <li>• Understand what it means and where it’s pointing</li>
-            <li>• Turn your insights into clear, grounded next steps</li>
-            <li>• Receive personalized guidance and support</li>
-          </ul>
-          <p className="mt-4 text-lg md:text-xl">
-            So instead of something that felt meaningful in the moment, you leave with something
-            that actually changes how you move forward.
-          </p>
-          <p className="mt-4 text-base md:text-lg">Choose a time that works for you below.</p>
-          <div className="mt-8 w-full">
-            <iframe
-              src="https://links.annabrookehealing.com/widget/booking/X2D2FVBjs3MkuUB5q8c0"
-              style={{ width: "100%", height: "860px", border: "none", overflow: "hidden" }}
-              scrolling="no"
-              id="X2D2FVBjs3MkuUB5q8c0_1744145924097"
-              title="Integration Support Booking"
-            ></iframe>
+          <div className="rounded-2xl bg-white/25 p-6 shadow-[0_2px_10px_rgba(0,0,0,0.04)] md:p-8">
+            <h2 className="font-serif text-3xl md:text-4xl">Want support integrating this experience?</h2>
+            <p className="mt-6 text-lg md:text-xl">
+              Many people find the real shift happens after the retreat, when you begin applying what
+              came up.
+            </p>
+            <p className="mt-6 text-lg md:text-xl">
+              Without support, it’s easy to leave with powerful insights, but slip back into old
+              patterns within days.
+            </p>
+            <p className="mt-6 text-lg md:text-xl">
+              This private 1:1 integration session with Anna gives you space to slow down, process
+              what surfaced, and begin turning it into something real in your life.
+            </p>
+            <div className="mt-6 border-t border-[#9B4D32]/10 pt-6">
+              <p className="text-lg md:text-xl">In this session, you’ll:</p>
+            </div>
+            <ul className="mt-6 space-y-2 text-lg md:text-xl">
+              <li>• Get clarity on what’s actually coming up for you</li>
+              <li>• Understand what it means and where it’s pointing</li>
+              <li>• Turn your insights into clear, grounded next steps</li>
+              <li>• Receive personalized guidance and support</li>
+            </ul>
+            <p className="mt-6 text-lg md:text-xl">
+              So instead of something that felt meaningful in the moment, you leave with something
+              that actually changes how you move forward.
+            </p>
+            <p className="mt-6 text-base md:text-lg">Choose a time that works for you below.</p>
+            <div className="mt-8 w-full">
+              <iframe
+                src="https://links.annabrookehealing.com/widget/booking/X2D2FVBjs3MkuUB5q8c0"
+                style={{ width: "100%", height: "860px", border: "none", overflow: "hidden" }}
+                scrolling="no"
+                id="X2D2FVBjs3MkuUB5q8c0_1744145924097"
+                title="Integration Support Booking"
+              ></iframe>
+            </div>
+            <Script src="https://links.annabrookehealing.com/js/form_embed.js" strategy="afterInteractive" />
+            <p className="mt-4 text-base md:text-lg">Spots are limited each week.</p>
           </div>
-          <Script src="https://links.annabrookehealing.com/js/form_embed.js" strategy="afterInteractive" />
-          <p className="mt-4 text-base md:text-lg">Spots are limited each week.</p>
         </section>
 
         <section className="mt-12 md:mt-16">
