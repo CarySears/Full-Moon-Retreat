@@ -25,7 +25,7 @@ export function HeroSection() {
           height={56}
           className="w-[44px] opacity-95 md:w-[56px]"
         />
-        <span className="font-sans text-base font-semibold tracking-tight text-[#F2EDE2] drop-shadow-[0_1px_1px_rgba(0,0,0,0.25)] md:text-2xl">
+        <span className="font-sans text-[13px] font-medium leading-none tracking-tight text-[#F2EDE2] opacity-90 drop-shadow-[0_1px_1px_rgba(0,0,0,0.2)] md:text-base">
           Anna Brooke Healing
         </span>
       </div>
