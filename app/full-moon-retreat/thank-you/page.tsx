@@ -1,3 +1,5 @@
+import Script from "next/script";
+
 export default function FullMoonRetreatThankYouPage() {
   return (
     <main className="bg-[#F2EDE2] py-16 text-[#9B4D32] md:py-24">
@@ -43,12 +45,13 @@ export default function FullMoonRetreatThankYouPage() {
           <div className="mt-8 w-full">
             <iframe
               src="https://links.annabrookehealing.com/widget/booking/X2D2FVBjs3MkuUB5q8c0"
-              style={{ width: "100%", border: "none", overflow: "hidden" }}
+              style={{ width: "100%", height: "860px", border: "none", overflow: "hidden" }}
               scrolling="no"
               id="X2D2FVBjs3MkuUB5q8c0_1744145924097"
               title="Integration Support Booking"
             ></iframe>
           </div>
+          <Script src="https://links.annabrookehealing.com/js/form_embed.js" strategy="afterInteractive" />
           <p className="mt-4 text-base md:text-lg">Spots are limited each week.</p>
         </section>
 
