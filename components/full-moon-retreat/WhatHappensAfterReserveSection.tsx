@@ -10,7 +10,7 @@ export function WhatHappensAfterReserveSection() {
     <section className="bg-[#F2EDE2] py-14 md:py-20">
       <div className="mx-auto w-full max-w-[900px] px-6 text-center md:px-10">
         <p className="text-base font-semibold text-[#9B4D32] md:text-lg">
-          Spots are limited to keep this experience intimate.
+          Spots are intentionally limited to keep this experience intimate.
         </p>
         <h2 className="mt-6 font-serif text-3xl text-[#9B4D32] md:text-4xl">
           What Happens After You Reserve

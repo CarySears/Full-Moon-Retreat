@@ -10,8 +10,7 @@ export function FinalCtaSection() {
           Your inner guidance already knows the way forward.
         </p>
         <p className="mt-6 text-lg text-[#9B4D32] md:text-xl">
-          This is your invitation to pause, reset, and reconnect with guidance, structure, and
-          support.
+          If you’ve been waiting for the right moment — this is it.
         </p>
         <p className="mt-8 text-xl font-semibold text-[#9B4D32] md:text-2xl">
           $125 - Live, Guided Online Experience
@@ -19,15 +18,30 @@ export function FinalCtaSection() {
         <p className="mt-3 text-base text-[#9B4D32] md:text-lg">
           Happening live on Sat, May 2 • 11am–3pm EDT
         </p>
-        <p className="mt-5 text-base text-[#9B4D32]">Spots are intentionally limited...</p>
         <a
           href="#reserve"
-          className="mt-8 inline-flex w-full justify-center rounded-xl bg-[#CE8F29] px-8 py-4 text-base font-semibold text-[#9B4D32] transition hover:brightness-95 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#9B4D32] sm:w-auto md:text-lg"
+          className="mt-8 inline-flex w-full justify-center rounded-xl bg-[#CE8F29] px-9 py-[1.1rem] text-base font-semibold text-[#9B4D32] transition hover:-translate-y-[2px] hover:brightness-95 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#9B4D32] sm:w-auto md:text-lg"
           style={{ boxShadow: "0 12px 26px rgba(155,77,50,0.16)" }}
+          onMouseEnter={(e) => {
+            e.currentTarget.style.boxShadow = "0 16px 30px rgba(155,77,50,0.22)";
+          }}
+          onMouseLeave={(e) => {
+            e.currentTarget.style.boxShadow = "0 12px 26px rgba(155,77,50,0.16)";
+          }}
         >
           Save My Spot →
         </a>
-        <p className="mt-4 text-sm text-[#9B4D32] md:text-base">Takes 60 seconds • Instant confirmation</p>
+        <p className="mt-5 text-base text-[#9B4D32]">Takes 60 seconds to reserve your spot.</p>
+        <p className="mt-5 text-base text-[#9B4D32]">
+          Spots are intentionally limited to keep this experience intimate.
+        </p>
+        <p className="mt-2 text-sm text-[#9B4D32] md:text-base">
+          You’ll receive instant confirmation + event details.
+        </p>
+        <p className="mt-2 text-sm text-[#9B4D32] md:text-base">This experience is not recorded.</p>
+        <p className="mt-2 text-sm text-[#9B4D32] md:text-base">
+          You’ll leave with tools you can return to anytime.
+        </p>
       </div>
     </section>
   );

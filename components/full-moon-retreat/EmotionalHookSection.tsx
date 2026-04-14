@@ -25,16 +25,6 @@ This is a space to slow down, listen inward, and reconnect with what’s true.`}
           </ul>
         </aside>
       </div>
-      <div className="mx-auto mt-10 w-full max-w-[1200px] px-6 md:mt-12 md:px-10">
-        <div className="rounded-2xl bg-[#A3B6E5] px-6 py-6 text-center text-[#9B4D32]">
-          <p className="font-serif text-2xl leading-tight md:text-3xl">
-            This is where things become clear again.
-          </p>
-          <p className="mt-3 text-base md:text-lg">
-            Not by forcing answers, but by creating the space for them to emerge.
-          </p>
-        </div>
-      </div>
     </section>
   );
 }

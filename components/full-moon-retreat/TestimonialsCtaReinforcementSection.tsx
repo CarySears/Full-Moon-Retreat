@@ -5,7 +5,9 @@ export function TestimonialsCtaReinforcementSection() {
         <p className="text-lg text-[#9B4D32]">
           Join others who have experienced deep clarity and emotional release.
         </p>
-        <p className="mt-4 text-sm text-[#9B4D32] md:text-base">Spots are intentionally limited...</p>
+        <p className="mt-4 text-sm text-[#9B4D32] md:text-base">
+          Spots are intentionally limited to keep this experience intimate.
+        </p>
         <a
           href="#reserve"
           className="mt-7 inline-flex w-full justify-center rounded-xl bg-[#CE8F29] px-8 py-4 text-base font-semibold text-[#9B4D32] transition hover:brightness-95 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#9B4D32] sm:w-auto md:text-lg"

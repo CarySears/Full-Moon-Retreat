@@ -7,7 +7,6 @@ import { HeroSection } from "@/components/full-moon-retreat/HeroSection";
 import { HostSection } from "@/components/full-moon-retreat/HostSection";
 import { OutcomesSection } from "@/components/full-moon-retreat/OutcomesSection";
 import { StickyMobileCta } from "@/components/full-moon-retreat/StickyMobileCta";
-import { TestimonialsCtaReinforcementSection } from "@/components/full-moon-retreat/TestimonialsCtaReinforcementSection";
 import { TestimonialsSection } from "@/components/full-moon-retreat/TestimonialsSection";
 import { ValueStackSection } from "@/components/full-moon-retreat/ValueStackSection";
 import { WhatHappensAfterReserveSection } from "@/components/full-moon-retreat/WhatHappensAfterReserveSection";
@@ -19,11 +18,10 @@ export default function FullMoonRetreatPage() {
       <EmotionalHookSection />
       <OutcomesSection />
       <FullMoonBeltaneSection />
-      <ExperienceSection />
-      <ValueStackSection />
       <HostSection />
       <TestimonialsSection />
-      <TestimonialsCtaReinforcementSection />
+      <ExperienceSection />
+      <ValueStackSection />
       <FaqSection />
       <WhatHappensAfterReserveSection />
       <FinalCtaSection />

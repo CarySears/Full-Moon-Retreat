@@ -20,6 +20,9 @@ export function HostSection() {
         </div>
         <div>
           <h2 className="font-serif text-3xl text-[#9B4D32] md:text-4xl">Meet Anna Brooke</h2>
+          <p className="mt-4 text-lg text-[#9B4D32]">
+            Trusted by clients navigating life transitions.
+          </p>
           <p className="mt-6 text-lg text-[#9B4D32]">
             Anna Brooke has spent over 20 years guiding people through life’s most meaningful
             transitions, helping them reconnect with themselves, find clarity, and move forward
