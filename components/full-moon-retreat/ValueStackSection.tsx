@@ -24,7 +24,7 @@ export function ValueStackSection() {
           ))}
         </div>
         <p className="mt-8 text-lg text-[#9B4D32]">
-          A supportive, thoughtfully guided experience designed to create real internal shifts —
+          A supportive, thoughtfully guided experience designed to create real internal shifts -
           with far more value than the ticket price alone.
         </p>
       </div>
