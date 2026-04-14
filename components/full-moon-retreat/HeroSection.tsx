@@ -35,7 +35,8 @@ export function HeroSection() {
             Live Online Full Moon Retreat
           </p>
           <h1 className="font-serif text-4xl font-semibold leading-tight text-[#F2EDE2] [text-shadow:0_5px_20px_rgba(0,0,0,0.58),0_1px_2px_rgba(0,0,0,0.45)] md:text-6xl">
-            You’ve Been Holding a Lot. This Is Where You Let It Go.
+            <span className="block">You’ve Been Holding a Lot.</span>
+            <span className="block md:whitespace-nowrap">This Is Where You Let It Go.</span>
           </h1>
           <p className="mt-8 text-lg font-medium text-[#F2EDE2] [text-shadow:0_2px_10px_rgba(0,0,0,0.45)] md:text-xl">
             A live, guided 4-hour experience to release emotional weight and reconnect with yourself.
