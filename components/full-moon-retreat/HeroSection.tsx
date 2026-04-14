@@ -17,7 +17,7 @@ export function HeroSection() {
             "linear-gradient(180deg, rgba(155,77,50,0.68) 0%, rgba(226,119,86,0.52) 45%, rgba(243,217,208,0.48) 100%)",
         }}
       />
-      <div className="absolute left-8 top-8 z-20 flex items-center gap-2 rounded-md bg-[rgba(73,31,19,0.22)] px-2 py-1.5 backdrop-blur-[1px] md:z-0 md:gap-3 md:px-2.5">
+      <div className="absolute left-8 top-8 z-20 flex items-center gap-2 md:z-0 md:gap-3">
         <Image
           src="/images/retreat-logo.png"
           alt="Retreat logo"
@@ -25,7 +25,7 @@ export function HeroSection() {
           height={56}
           className="w-[44px] opacity-95 md:w-[56px]"
         />
-        <span className="font-sans text-[13px] font-medium leading-none tracking-tight text-[#F2EDE2] opacity-95 drop-shadow-[0_2px_3px_rgba(0,0,0,0.3)] md:text-base">
+        <span className="font-sans text-[13px] font-medium leading-none tracking-tight text-[#F2EDE2] opacity-90 drop-shadow-[0_1px_1px_rgba(0,0,0,0.2)] md:text-base">
           Anna Brooke Healing
         </span>
       </div>
@@ -34,7 +34,7 @@ export function HeroSection() {
           <p className="mb-6 text-sm font-semibold uppercase tracking-[0.2em] text-[#F2EDE2] md:text-base">
             Live Online Full Moon Retreat
           </p>
-          <h1 className="font-serif text-4xl leading-tight text-[#F2EDE2] md:text-6xl">
+          <h1 className="font-serif text-4xl leading-tight text-[#F2EDE2] drop-shadow-[0_4px_14px_rgba(0,0,0,0.28)] md:text-6xl">
             You’ve Been Holding a Lot. This Is Where You Let It Go.
           </h1>
           <p className="mt-8 text-lg text-[#F2EDE2] md:text-xl">
