@@ -44,12 +44,33 @@ export function HeroSection() {
           <p className="mt-8 text-base font-semibold text-[#F2EDE2] [text-shadow:0_2px_9px_rgba(0,0,0,0.45)] md:text-lg">
             May 2 • 11am–3pm EDT
           </p>
-          <a
-            href="#reserve"
-            className="mt-10 inline-flex w-full justify-center rounded-xl bg-[#CE8F29] px-9 py-[1.375rem] text-base font-semibold text-[#9B4D32] shadow-[0_14px_30px_rgba(155,77,50,0.22)] transition duration-200 hover:-translate-y-[2px] hover:shadow-[0_18px_34px_rgba(155,77,50,0.28)] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#F2EDE2] sm:w-auto md:text-lg"
-          >
-            Save My Spot →
-          </a>
+          <div className="relative mt-10 inline-flex w-full sm:w-auto">
+            <a
+              href="#reserve"
+              className="inline-flex w-full justify-center rounded-xl bg-[#CE8F29] px-9 py-[1.375rem] text-base font-semibold text-[#9B4D32] shadow-[0_14px_30px_rgba(155,77,50,0.22)] transition duration-200 hover:-translate-y-[2px] hover:shadow-[0_18px_34px_rgba(155,77,50,0.28)] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#F2EDE2] sm:w-auto md:text-lg"
+            >
+              Save My Spot →
+            </a>
+            <div className="pointer-events-none absolute inset-0 -z-10 overflow-hidden opacity-0">
+              <iframe
+                src="https://links.annabrookehealing.com/widget/form/zbmQVs1NdzYD1ZOO2RNm"
+                style={{ width: "100%", height: "100%", border: "none", borderRadius: "3px" }}
+                id="inline-zbmQVs1NdzYD1ZOO2RNm-hero"
+                data-layout="{'id':'INLINE'}"
+                data-trigger-type="alwaysShow"
+                data-trigger-value=""
+                data-activation-type="alwaysActivated"
+                data-activation-value=""
+                data-deactivation-type="neverDeactivate"
+                data-deactivation-value=""
+                data-form-name="Full Moon Retreat"
+                data-height="959"
+                data-layout-iframe-id="inline-zbmQVs1NdzYD1ZOO2RNm-hero"
+                data-form-id="zbmQVs1NdzYD1ZOO2RNm"
+                title="Full Moon Retreat"
+              />
+            </div>
+          </div>
           <p className="mt-4 text-sm text-[#F2EDE2] md:text-base">
             Takes 60 seconds • Instant confirmation
           </p>

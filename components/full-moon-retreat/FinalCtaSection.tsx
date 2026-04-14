@@ -18,12 +18,26 @@ export function FinalCtaSection() {
         <p className="mt-3 text-base text-[#9B4D32] md:text-lg">
           Happening live on Sat, May 2 • 11am–3pm EDT
         </p>
-        <a
-          href="#reserve"
-          className="mt-8 inline-flex w-full justify-center rounded-xl bg-[#CE8F29] px-9 py-[1.1rem] text-base font-semibold text-[#9B4D32] shadow-[0_12px_26px_rgba(155,77,50,0.16)] transition hover:-translate-y-[2px] hover:brightness-95 hover:shadow-[0_16px_30px_rgba(155,77,50,0.22)] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#9B4D32] sm:w-auto md:text-lg"
-        >
-          Save My Spot →
-        </a>
+        <div className="mt-8 h-[959px] w-full">
+          <iframe
+            src="https://links.annabrookehealing.com/widget/form/zbmQVs1NdzYD1ZOO2RNm"
+            style={{ width: "100%", height: "100%", border: "none", borderRadius: "3px" }}
+            id="inline-zbmQVs1NdzYD1ZOO2RNm"
+            data-layout="{'id':'INLINE'}"
+            data-trigger-type="alwaysShow"
+            data-trigger-value=""
+            data-activation-type="alwaysActivated"
+            data-activation-value=""
+            data-deactivation-type="neverDeactivate"
+            data-deactivation-value=""
+            data-form-name="Full Moon Retreat"
+            data-height="959"
+            data-layout-iframe-id="inline-zbmQVs1NdzYD1ZOO2RNm"
+            data-form-id="zbmQVs1NdzYD1ZOO2RNm"
+            title="Full Moon Retreat"
+          />
+        </div>
+        <script src="https://links.annabrookehealing.com/js/form_embed.js"></script>
         <p className="mt-5 text-base text-[#9B4D32]">Takes 60 seconds to reserve your spot.</p>
         <p className="mt-5 text-base text-[#9B4D32]">
           Spots are intentionally limited to keep this experience intimate.

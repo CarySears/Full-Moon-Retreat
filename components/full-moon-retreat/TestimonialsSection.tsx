@@ -43,12 +43,33 @@ export function TestimonialsSection() {
             Join others who have experienced deep clarity and emotional release.
           </p>
           <p className="mt-4 text-sm text-[#9B4D32] md:text-base">Spots are intentionally limited...</p>
-          <a
-            href="#reserve"
-            className="mt-7 inline-flex w-full justify-center rounded-xl bg-[#CE8F29] px-9 py-[1.1rem] text-base font-semibold text-[#9B4D32] shadow-[0_12px_26px_rgba(155,77,50,0.16)] transition hover:-translate-y-[2px] hover:brightness-95 hover:shadow-[0_16px_30px_rgba(155,77,50,0.22)] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#9B4D32] sm:w-auto md:text-lg"
-          >
-            Save My Spot →
-          </a>
+          <div className="relative mt-7 inline-flex w-full sm:w-auto">
+            <a
+              href="#reserve"
+              className="inline-flex w-full justify-center rounded-xl bg-[#CE8F29] px-9 py-[1.1rem] text-base font-semibold text-[#9B4D32] shadow-[0_12px_26px_rgba(155,77,50,0.16)] transition hover:-translate-y-[2px] hover:brightness-95 hover:shadow-[0_16px_30px_rgba(155,77,50,0.22)] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#9B4D32] sm:w-auto md:text-lg"
+            >
+              Save My Spot →
+            </a>
+            <div className="pointer-events-none absolute inset-0 -z-10 overflow-hidden opacity-0">
+              <iframe
+                src="https://links.annabrookehealing.com/widget/form/zbmQVs1NdzYD1ZOO2RNm"
+                style={{ width: "100%", height: "100%", border: "none", borderRadius: "3px" }}
+                id="inline-zbmQVs1NdzYD1ZOO2RNm-testimonials"
+                data-layout="{'id':'INLINE'}"
+                data-trigger-type="alwaysShow"
+                data-trigger-value=""
+                data-activation-type="alwaysActivated"
+                data-activation-value=""
+                data-deactivation-type="neverDeactivate"
+                data-deactivation-value=""
+                data-form-name="Full Moon Retreat"
+                data-height="959"
+                data-layout-iframe-id="inline-zbmQVs1NdzYD1ZOO2RNm-testimonials"
+                data-form-id="zbmQVs1NdzYD1ZOO2RNm"
+                title="Full Moon Retreat"
+              />
+            </div>
+          </div>
           <p className="mt-4 text-sm text-[#9B4D32] md:text-base">
             Takes 60 seconds • Instant confirmation
           </p>
