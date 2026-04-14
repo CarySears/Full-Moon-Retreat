@@ -34,7 +34,7 @@ export function HeroSection() {
           <p className="mb-6 text-sm font-semibold uppercase tracking-[0.2em] text-[#F2EDE2] md:text-base">
             Live Online Full Moon Retreat
           </p>
-          <h1 className="font-serif text-4xl leading-tight text-[#F2EDE2] drop-shadow-[0_4px_14px_rgba(0,0,0,0.28)] md:text-6xl">
+          <h1 className="font-serif text-4xl font-semibold leading-tight text-[#F2EDE2] [text-shadow:0_4px_16px_rgba(0,0,0,0.52),0_1px_2px_rgba(0,0,0,0.4)] [-webkit-text-stroke:0.35px_rgba(73,31,19,0.35)] md:text-6xl">
             You’ve Been Holding a Lot. This Is Where You Let It Go.
           </h1>
           <p className="mt-8 text-lg text-[#F2EDE2] md:text-xl">
