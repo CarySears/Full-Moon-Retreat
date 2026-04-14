@@ -17,7 +17,7 @@ export function HeroSection() {
             "linear-gradient(180deg, rgba(155,77,50,0.68) 0%, rgba(226,119,86,0.52) 45%, rgba(243,217,208,0.48) 100%)",
         }}
       />
-      <div className="absolute left-8 top-8 z-20 flex items-center gap-3 md:z-0">
+      <div className="absolute left-8 top-8 z-20 flex items-center gap-2 md:z-0 md:gap-3">
         <Image
           src="/images/retreat-logo.png"
           alt="Retreat logo"
@@ -25,7 +25,7 @@ export function HeroSection() {
           height={56}
           className="w-[44px] opacity-95 md:w-[56px]"
         />
-        <span className="font-sans text-[22px] font-semibold tracking-tight text-[#1D5A63] md:text-[42px]">
+        <span className="font-sans text-base font-semibold tracking-tight text-[#F2EDE2] drop-shadow-[0_1px_1px_rgba(0,0,0,0.25)] md:text-2xl">
           Anna Brooke Healing
         </span>
       </div>
