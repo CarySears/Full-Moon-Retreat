@@ -1,22 +1,15 @@
 const testimonials = [
   {
-    headline: "“I didn’t expect such a deep shift in just a few hours.”",
-    body: "I left feeling lighter, clearer, and more like myself again.",
-    name: "— [First Name], [Profession]",
-    attended: "Attended a recent Full Moon Retreat",
+    body: "Anna is wonderful! I had an amazing experience during a breath class. Truly transformative and felt supported by Anna throughout the process. She really offers a safe, compassionate space to experience whatever it is you need to in that moment.",
+    name: "Emery M",
   },
   {
-    headline:
-      "“Anna creates a space where you feel completely safe to be honest with yourself.”",
-    body: "That alone is transformative.",
-    name: "— [First Name], [Profession]",
-    attended: "Attended a recent Full Moon Retreat",
+    body: "I was carrying around stress for years. Between family challenges, moving, and Covid, I couldn’t quite get my bearings around removing stress-particularly the kind behind your eyes that lingers as a constant weight. After working with Anna, I was cleared of that stress. It is unbelievable! I have done everything from therapy to meditation, cutting out sugar, alcohol, caffeine, adding exercise - you name it, and I tried it. Anna’s work provided a breakthrough I could only dream of. Run, don’t walk, to make an appointment with her!",
+    name: "Katherine M.",
   },
   {
-    headline: "“I left feeling calmer, clearer, and more connected to what I truly needed.”",
-    body: "This experience stayed with me long after it ended.",
-    name: "— [First Name], [Profession]",
-    attended: "Attended a recent Full Moon Retreat",
+    body: "Anna is the best! She always brings so much positive, warm energy to the room and truly loves what she does. I would recommend her to anyone. Such an inspiration.",
+    name: "Christina B",
   },
 ];
 
@@ -30,16 +23,15 @@ export function TestimonialsSection() {
         <div className="mt-10 grid gap-5 md:grid-cols-3">
           {testimonials.map((testimonial) => (
             <blockquote
-              key={testimonial.headline}
+              key={testimonial.name}
               className="rounded-2xl bg-[#F2EDE2] p-7"
               style={{ boxShadow: "0 10px 24px rgba(155,77,50,0.1)" }}
             >
-              <p className="text-lg font-semibold text-[#9B4D32]">{testimonial.headline}</p>
+              <p className="text-base font-semibold tracking-[0.08em] text-[#CE8F29]">★★★★★</p>
               <p className="mt-4 text-lg text-[#9B4D32]">{testimonial.body}</p>
               <footer className="mt-5 text-sm font-semibold text-[#9B4D32]">
-                {testimonial.name}
+                — {testimonial.name}
               </footer>
-              <p className="mt-2 text-sm text-[#9B4D32]">{testimonial.attended}</p>
             </blockquote>
           ))}
         </div>
