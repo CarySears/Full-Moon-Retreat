@@ -46,7 +46,7 @@ export function HeroSection() {
           </p>
           <a
             href="#reserve"
-            className="mt-10 inline-flex w-full justify-center rounded-xl bg-[#CE8F29] px-9 py-[1.375rem] text-base font-semibold text-[#9B4D32] shadow-[0_14px_30px_rgba(155,77,50,0.22)] transition duration-200 hover:-translate-y-0.5 hover:shadow-[0_18px_34px_rgba(155,77,50,0.28)] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#F2EDE2] sm:w-auto md:text-lg"
+            className="mt-10 inline-flex w-full justify-center rounded-xl bg-[#CE8F29] px-9 py-[1.375rem] text-base font-semibold text-[#9B4D32] shadow-[0_14px_30px_rgba(155,77,50,0.22)] transition duration-200 hover:-translate-y-[2px] hover:shadow-[0_18px_34px_rgba(155,77,50,0.28)] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#F2EDE2] sm:w-auto md:text-lg"
           >
             Save My Spot →
           </a>
