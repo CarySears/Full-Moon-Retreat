@@ -28,7 +28,7 @@ export function FaqSection() {
   const [openIndex, setOpenIndex] = useState(0);
 
   return (
-    <section className="bg-[#F2EDE2] py-14 md:py-20">
+    <section className="bg-[#F2EDE2] pb-0 pt-14 md:pb-0 md:pt-20">
       <div className="mx-auto w-full max-w-[900px] px-6 md:px-10">
         <h2 className="text-center font-serif text-3xl text-[#9B4D32] md:text-4xl">FAQs</h2>
         <div className="mt-10 divide-y" style={{ borderColor: "rgba(226,119,86,0.4)" }}>
