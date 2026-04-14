@@ -30,7 +30,7 @@ export function TestimonialsSection() {
               <p className="text-base font-semibold tracking-[0.08em] text-[#CE8F29]">★★★★★</p>
               <p className="mt-4 text-lg text-[#9B4D32]">{testimonial.body}</p>
               <footer className="mt-5 text-sm font-semibold text-[#9B4D32]">
-                — {testimonial.name}
+                {testimonial.name}
               </footer>
             </blockquote>
           ))}

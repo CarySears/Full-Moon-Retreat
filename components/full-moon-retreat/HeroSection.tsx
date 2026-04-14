@@ -44,7 +44,7 @@ export function HeroSection() {
             May 2 • 11am–3pm EDT
           </p>
           <p className="mt-8 text-base font-medium text-[#F2EDE2] [text-shadow:0_2px_10px_rgba(0,0,0,0.45)] md:text-lg">
-            <span className="block">Guided by Anna Brooke — 20+ years supporting life transitions</span>
+            <span className="block">Guided by Anna Brooke, 20+ years supporting life transitions</span>
             <span className="block">Featured in Huffington Post, BuzzFeed, and Page Six</span>
           </p>
           <p className="mt-8 text-xl font-semibold text-[#F2EDE2] [text-shadow:0_3px_12px_rgba(0,0,0,0.5)] md:text-2xl">

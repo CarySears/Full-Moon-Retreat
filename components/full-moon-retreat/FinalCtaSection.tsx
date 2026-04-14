@@ -10,11 +10,11 @@ export function FinalCtaSection() {
           Your inner guidance already knows the way forward.
         </p>
         <p className="mt-6 text-lg text-[#9B4D32] md:text-xl">
-          This is your invitation to pause, reset, and reconnect — with guidance, structure, and
+          This is your invitation to pause, reset, and reconnect with guidance, structure, and
           support.
         </p>
         <p className="mt-8 text-xl font-semibold text-[#9B4D32] md:text-2xl">
-          $125 — Live, Guided Online Experience
+          $125 - Live, Guided Online Experience
         </p>
         <p className="mt-3 text-base text-[#9B4D32] md:text-lg">
           Happening live on Sat, May 2 • 11am–3pm EDT
@@ -24,8 +24,7 @@ export function FinalCtaSection() {
           className="mt-8 inline-flex w-full justify-center rounded-xl bg-[#CE8F29] px-8 py-4 text-base font-semibold text-[#9B4D32] transition hover:brightness-95 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#9B4D32] sm:w-auto md:text-lg"
           style={{ boxShadow: "0 12px 26px rgba(155,77,50,0.16)" }}
         >
-          {/* Variant: Reserve My Spot Now — $125 */}
-          Reserve My Spot — $125
+          Save My Spot →
         </a>
         <p className="mt-5 text-base text-[#9B4D32]">Takes 60 seconds to reserve your spot.</p>
         <p className="mt-5 text-base text-[#9B4D32]">Limited spots available.</p>
