@@ -1,9 +1,9 @@
 const includedItems = [
-  "4-hour live guided experience",
-  "Breathwork session ($50+ value)",
-  "Somatic + emotional practices",
-  "Real-time facilitation (not pre-recorded)",
-  "Tools you can reuse after the retreat",
+  "4-hour live guided retreat experience ($125+ value)",
+  "Guided breathwork session ($75+ value)",
+  "Somatic + emotional practices ($75+ value)",
+  "Live facilitation with Anna in real time (not pre-recorded) ($100+ value)",
+  "Integration tools you can return to after the retreat ($50+ value)",
 ];
 
 export function ValueStackSection() {
@@ -24,7 +24,8 @@ export function ValueStackSection() {
           ))}
         </div>
         <p className="mt-8 text-lg text-[#9B4D32]">
-          A supportive, thoughtfully guided experience designed to create real internal shifts.
+          A supportive, thoughtfully guided experience designed to create real internal shifts —
+          with far more value than the ticket price alone.
         </p>
       </div>
     </section>

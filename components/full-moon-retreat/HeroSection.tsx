@@ -32,11 +32,11 @@ export function HeroSection() {
       <div className="relative z-10 mx-auto w-full max-w-[1200px] px-6 pb-20 pt-28 text-center md:px-10 md:py-20">
         <div className="mx-auto max-w-[850px]">
           <p className="mb-6 text-sm font-semibold uppercase tracking-[0.2em] text-[#F2EDE2] md:text-base">
-            Live Online Full Moon Retreat
+            LIVE ONLINE FULL MOON RETREAT
           </p>
           <h1 className="font-serif text-4xl font-semibold leading-tight text-[#F2EDE2] [text-shadow:0_5px_20px_rgba(0,0,0,0.58),0_1px_2px_rgba(0,0,0,0.45)] md:text-6xl">
             <span className="block">You’ve Been Holding a Lot.</span>
-            <span className="block md:whitespace-nowrap">This Is Where You Let It Go.</span>
+            <span className="block md:whitespace-nowrap">This Is Where You Let It Go — Safely.</span>
           </h1>
           <p className="mt-8 text-lg font-medium text-[#F2EDE2] [text-shadow:0_2px_10px_rgba(0,0,0,0.45)] md:text-xl">
             A live, guided 4-hour experience to release emotional weight and reconnect with yourself.
@@ -44,22 +44,21 @@ export function HeroSection() {
           <p className="mt-8 text-base font-semibold text-[#F2EDE2] [text-shadow:0_2px_9px_rgba(0,0,0,0.45)] md:text-lg">
             May 2 • 11am–3pm EDT
           </p>
-          <p className="mt-8 text-base font-medium text-[#F2EDE2] [text-shadow:0_2px_10px_rgba(0,0,0,0.45)] md:text-lg">
-            <span className="block">Guided by Anna Brooke, 20+ years supporting life transitions</span>
-            <span className="block">Featured in Huffington Post, BuzzFeed, and Page Six</span>
-          </p>
-          <p className="mt-8 text-xl font-semibold text-[#F2EDE2] [text-shadow:0_3px_12px_rgba(0,0,0,0.5)] md:text-2xl">
-            Spots are intentionally limited...
-          </p>
           <a
             href="#reserve"
-            className="mt-10 inline-flex w-full justify-center rounded-xl bg-[#CE8F29] px-8 py-5 text-base font-semibold text-[#9B4D32] transition duration-200 hover:-translate-y-0.5 hover:scale-[1.01] hover:brightness-95 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#F2EDE2] sm:w-auto md:text-lg"
-            style={{ boxShadow: "0 14px 30px rgba(155,77,50,0.22)" }}
+            className="mt-10 inline-flex w-full justify-center rounded-xl bg-[#CE8F29] px-9 py-[1.375rem] text-base font-semibold text-[#9B4D32] shadow-[0_14px_30px_rgba(155,77,50,0.22)] transition duration-200 hover:-translate-y-0.5 hover:shadow-[0_18px_34px_rgba(155,77,50,0.28)] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#F2EDE2] sm:w-auto md:text-lg"
           >
             Save My Spot →
           </a>
           <p className="mt-4 text-sm text-[#F2EDE2] md:text-base">
             Takes 60 seconds • Instant confirmation
+          </p>
+          <p className="mt-8 text-base font-medium text-[#F2EDE2] [text-shadow:0_2px_10px_rgba(0,0,0,0.45)] md:text-lg">
+            <span className="block">Guided by Anna Brooke — 20+ years supporting life transitions</span>
+            <span className="block">Featured in Huffington Post, BuzzFeed, and Page Six</span>
+          </p>
+          <p className="mt-8 text-xl font-semibold text-[#F2EDE2] [text-shadow:0_3px_12px_rgba(0,0,0,0.5)] md:text-2xl">
+            Spots are intentionally limited to keep this experience intimate.
           </p>
         </div>
       </div>

@@ -1,10 +1,10 @@
 const experienceItems = [
-  "Gentle somatic movement",
-  "A guided breathwork session",
-  "Self-inquiry exercises",
-  "Optional sharing in a safe, supported space",
-  "Guided prompts to help you move forward with intention",
-  "Personalized affirmations for continued integration",
+  "Gently release stored tension from your body",
+  "Experience guided breathwork in a safe, supported way",
+  "Reflect through self-inquiry that brings hidden truths into focus",
+  "Share only if it feels supportive — never because you have to",
+  "Use guided prompts to move forward with more clarity and intention",
+  "Leave with personalized affirmations that support continued integration",
 ];
 
 export function ExperienceSection() {
