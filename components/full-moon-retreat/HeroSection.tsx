@@ -18,7 +18,7 @@ export function HeroSection() {
         }}
       />
       <Image
-        src="/images/retreat-logo-current.png"
+        src="/images/retreat-logo.png"
         alt="Retreat logo"
         width={56}
         height={56}
