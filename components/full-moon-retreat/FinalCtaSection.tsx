@@ -33,7 +33,7 @@ export function FinalCtaSection() {
         </p>
         <p className="mt-4 text-sm text-[#9B4D32] md:text-base">This experience is not recorded.</p>
         <p className="mt-4 text-sm text-[#9B4D32] md:text-base">
-          You’ll leave with tools you can return to anytime.
+          You’ll leave with transformative tools you can return to anytime.
         </p>
       </div>
     </section>

@@ -1,9 +1,9 @@
 const includedItems = [
-  "4-hour live guided retreat experience ($125+ value)",
-  "Guided breathwork session ($75+ value)",
-  "Somatic + emotional practices ($75+ value)",
-  "Live facilitation with Anna in real time (not pre-recorded) ($100+ value)",
-  "Integration tools you can return to after the retreat ($50+ value)",
+  "4-hour live guided retreat experience",
+  "Guided breathwork session",
+  "Somatic + emotional practices",
+  "Live facilitation with Anna in real time (not pre-recorded)",
+  "Integration tools you can return to after the retreat",
 ];
 
 export function ValueStackSection() {
