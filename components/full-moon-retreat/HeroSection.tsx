@@ -34,18 +34,20 @@ export function HeroSection() {
           <p className="mb-6 text-sm font-semibold uppercase tracking-[0.2em] text-[#F2EDE2] md:text-base">
             Live Online Full Moon Retreat
           </p>
-          <h1 className="font-serif text-4xl font-semibold leading-tight text-[#F2EDE2] [text-shadow:0_4px_16px_rgba(0,0,0,0.52),0_1px_2px_rgba(0,0,0,0.4)] [-webkit-text-stroke:0.35px_rgba(73,31,19,0.35)] md:text-6xl">
+          <h1 className="font-serif text-4xl font-semibold leading-tight text-[#F2EDE2] [text-shadow:0_5px_20px_rgba(0,0,0,0.58),0_1px_2px_rgba(0,0,0,0.45)] md:text-6xl">
             You’ve Been Holding a Lot. This Is Where You Let It Go.
           </h1>
-          <p className="mt-8 text-lg text-[#F2EDE2] md:text-xl">
+          <p className="mt-8 text-lg font-medium text-[#F2EDE2] [text-shadow:0_2px_10px_rgba(0,0,0,0.45)] md:text-xl">
             A live, guided 4-hour experience to release emotional weight and reconnect with yourself.
           </p>
-          <p className="mt-8 text-base text-[#F2EDE2] md:text-lg">May 2 • 11am–3pm EDT</p>
-          <p className="mt-8 text-base text-[#F2EDE2] md:text-lg">
+          <p className="mt-8 text-base font-semibold text-[#F2EDE2] [text-shadow:0_2px_9px_rgba(0,0,0,0.45)] md:text-lg">
+            May 2 • 11am–3pm EDT
+          </p>
+          <p className="mt-8 text-base font-medium text-[#F2EDE2] [text-shadow:0_2px_10px_rgba(0,0,0,0.45)] md:text-lg">
             <span className="block">Guided by Anna Brooke — 20+ years supporting life transitions</span>
             <span className="block">Featured in Huffington Post, BuzzFeed, and Page Six</span>
           </p>
-          <p className="mt-8 text-xl font-semibold text-[#F2EDE2] md:text-2xl">
+          <p className="mt-8 text-xl font-semibold text-[#F2EDE2] [text-shadow:0_3px_12px_rgba(0,0,0,0.5)] md:text-2xl">
             Spots are intentionally limited...
           </p>
           <a
