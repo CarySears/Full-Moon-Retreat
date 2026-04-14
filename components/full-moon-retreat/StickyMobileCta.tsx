@@ -12,9 +12,9 @@ export function StickyMobileCta() {
         <a
           href="#reserve"
           className="inline-flex w-full justify-center rounded-lg bg-[#CE8F29] px-5 py-3 text-sm font-semibold text-[#9B4D32] transition hover:brightness-95 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#9B4D32]"
-          aria-label="Reserve My Spot — $125"
+          aria-label="Save My Spot"
         >
-          Reserve My Spot — $125
+          Save My Spot →
         </a>
         <p className="text-xs text-[#9B4D32]">Takes 60 seconds • Limited spots</p>
       </div>

@@ -31,7 +31,7 @@ This is a space to slow down, listen inward, and reconnect with what’s true.`}
             This is where things become clear again.
           </p>
           <p className="mt-3 text-base md:text-lg">
-            Not by forcing answers — but by creating the space for them to emerge.
+            Not by forcing answers, but by creating the space for them to emerge.
           </p>
         </div>
       </div>
