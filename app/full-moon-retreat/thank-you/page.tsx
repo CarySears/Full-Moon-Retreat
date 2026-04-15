@@ -1,11 +1,14 @@
 import Script from "next/script";
+import styles from "./page.module.css";
 
 export default function FullMoonRetreatThankYouPage() {
   return (
     <main className="bg-[#F2EDE2] py-16 text-[#9B4D32] md:py-24">
       <div className="mx-auto w-full max-w-[900px] px-6 md:px-10">
         <section className="text-center">
-          <div className="hero-headline-shell mx-auto inline-block rounded-2xl border border-[#9B4D32]/15 bg-white/25 px-6 py-4 shadow-[0_3px_14px_rgba(0,0,0,0.06)] md:px-8 md:py-5">
+          <div
+            className={`${styles.heroHeadlineShell} mx-auto inline-block rounded-2xl border border-[#9B4D32]/15 bg-white/25 px-6 py-4 shadow-[0_3px_14px_rgba(0,0,0,0.06)] md:px-8 md:py-5`}
+          >
             <h1 className="font-serif text-4xl leading-tight md:text-5xl">
               You're In. Your Spot Is Reserved.
             </h1>
@@ -94,33 +97,6 @@ export default function FullMoonRetreatThankYouPage() {
           <p className="mt-4 text-lg md:text-xl">We’ll guide you the rest of the way.</p>
         </section>
       </div>
-      <style jsx>{`
-        .hero-headline-shell {
-          animation: headline-celebrate-in 760ms cubic-bezier(0.22, 0.8, 0.28, 1) both;
-          transform-origin: left center;
-        }
-
-        @keyframes headline-celebrate-in {
-          0% {
-            opacity: 0;
-            transform: translateX(-28px) scale(0.985);
-          }
-          68% {
-            opacity: 1;
-            transform: translateX(0) scale(1.01);
-          }
-          100% {
-            opacity: 1;
-            transform: translateX(0) scale(1);
-          }
-        }
-
-        @media (prefers-reduced-motion: reduce) {
-          .hero-headline-shell {
-            animation: none;
-          }
-        }
-      `}</style>
     </main>
   );
 }

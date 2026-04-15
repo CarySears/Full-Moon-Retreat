@@ -1,0 +1,25 @@
+.heroHeadlineShell {
+  animation: headlineCelebrateIn 760ms cubic-bezier(0.22, 0.8, 0.28, 1) both;
+  transform-origin: left center;
+}
+
+@keyframes headlineCelebrateIn {
+  0% {
+    opacity: 0;
+    transform: translateX(-28px) scale(0.985);
+  }
+  68% {
+    opacity: 1;
+    transform: translateX(0) scale(1.01);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0) scale(1);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .heroHeadlineShell {
+    animation: none;
+  }
+}
