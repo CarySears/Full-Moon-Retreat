@@ -32,6 +32,7 @@ export function FinalCtaSection() {
         <div className="mt-8 h-[959px] w-full">
           <iframe
             src="https://links.annabrookehealing.com/widget/form/zbmQVs1NdzYD1ZOO2RNm"
+            loading="lazy"
             style={{ width: "100%", height: "100%", border: "none", borderRadius: "3px" }}
             id="inline-zbmQVs1NdzYD1ZOO2RNm"
             data-layout="{'id':'INLINE'}"
@@ -48,7 +49,6 @@ export function FinalCtaSection() {
             title="Full Moon Retreat"
           />
         </div>
-        <script src="https://links.annabrookehealing.com/js/form_embed.js"></script>
       </div>
     </section>
   );

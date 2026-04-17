@@ -29,6 +29,7 @@ export default function FullMoonRetreatPage() {
         <FinalCtaSection />
         <StickyMobileCta />
       </main>
+      <Script src="https://links.annabrookehealing.com/js/form_embed.js" strategy="lazyOnload" />
       <Script id="payment-success-redirect" strategy="afterInteractive">{`
         (function () {
           var paymentFormId = "zbmQVs1NdzYD1ZOO2RNm";

@@ -20,6 +20,7 @@ export function StickyMobileCta() {
           <div className="pointer-events-none absolute inset-0 -z-10 overflow-hidden opacity-0">
             <iframe
               src="https://links.annabrookehealing.com/widget/form/zbmQVs1NdzYD1ZOO2RNm"
+              loading="lazy"
               style={{ width: "100%", height: "100%", border: "none", borderRadius: "3px" }}
               id="inline-zbmQVs1NdzYD1ZOO2RNm-sticky"
               data-layout="{'id':'INLINE'}"
