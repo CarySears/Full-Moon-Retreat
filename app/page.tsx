@@ -29,11 +29,15 @@ export default function FullMoonRetreatPage() {
         <FinalCtaSection />
         <StickyMobileCta />
       </main>
-      <Script src="https://links.annabrookehealing.com/js/form_embed.js" strategy="lazyOnload" />
+      <Script src="https://api.leadconnectorhq.com/js/form_embed.js" strategy="lazyOnload" />
       <Script id="payment-success-redirect" strategy="afterInteractive">{`
         (function () {
           var paymentFormId = "zbmQVs1NdzYD1ZOO2RNm";
           var thankYouPath = "/thank-you";
+          var trustedOrigins = [
+            "https://api.leadconnectorhq.com",
+            "https://links.annabrookehealing.com",
+          ];
 
           function redirectToThankYou() {
             if (window.location.pathname === thankYouPath) return;
@@ -41,7 +45,7 @@ export default function FullMoonRetreatPage() {
           }
 
           window.addEventListener("message", function (event) {
-            if (event.origin !== "https://links.annabrookehealing.com") return;
+            if (trustedOrigins.indexOf(event.origin) === -1) return;
             if (!Array.isArray(event.data) || event.data[0] !== "set-sticky-contacts") return;
 
             var userDataKey = typeof event.data[1] === "string" ? event.data[1] : "";

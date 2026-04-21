@@ -68,14 +68,14 @@ export default function FullMoonRetreatThankYouPage() {
             <p className="mt-6 text-base md:text-lg">Choose a time that works for you below.</p>
             <div className="mt-8 w-full">
               <iframe
-                src="https://links.annabrookehealing.com/widget/booking/X2D2FVBjs3MkuUB5q8c0"
+                src="https://api.leadconnectorhq.com/widget/booking/X2D2FVBjs3MkuUB5q8c0"
                 style={{ width: "100%", height: "860px", border: "none", overflow: "hidden" }}
                 scrolling="no"
                 id="X2D2FVBjs3MkuUB5q8c0_1744145924097"
                 title="Integration Support Booking"
               ></iframe>
             </div>
-            <Script src="https://links.annabrookehealing.com/js/form_embed.js" strategy="afterInteractive" />
+            <Script src="https://api.leadconnectorhq.com/js/form_embed.js" strategy="afterInteractive" />
             <p className="mt-4 text-base md:text-lg">Spots are limited each week.</p>
           </div>
         </section>
