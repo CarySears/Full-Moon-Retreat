@@ -4,6 +4,7 @@ import { ExperienceSection } from "@/components/full-moon-retreat/ExperienceSect
 import { FaqSection } from "@/components/full-moon-retreat/FaqSection";
 import { FinalCtaSection } from "@/components/full-moon-retreat/FinalCtaSection";
 import { FullMoonBeltaneSection } from "@/components/full-moon-retreat/FullMoonBeltaneSection";
+import { ForYouSection } from "@/components/full-moon-retreat/ForYouSection";
 import { HeroSection } from "@/components/full-moon-retreat/HeroSection";
 import { HostSection } from "@/components/full-moon-retreat/HostSection";
 import { OutcomesSection } from "@/components/full-moon-retreat/OutcomesSection";
@@ -17,6 +18,7 @@ export default function FullMoonRetreatPage() {
     <>
       <main className="bg-[#F2EDE2] pb-24 text-[#9B4D32] md:pb-0">
         <HeroSection />
+        <ForYouSection />
         <EmotionalHookSection />
         <OutcomesSection />
         <FullMoonBeltaneSection />

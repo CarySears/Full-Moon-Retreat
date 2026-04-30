@@ -39,6 +39,8 @@ export function StickyMobileCta() {
           </div>
         </div>
         <p className="text-xs text-[#9B4D32]">Takes 60 seconds • Instant confirmation</p>
+        <p className="text-xs text-[#9B4D32]">You’ll receive everything you need right after booking.</p>
+        <p className="text-xs text-[#9B4D32]">Enrollment closes soon.</p>
       </div>
     </div>
   );
