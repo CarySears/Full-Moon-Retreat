@@ -25,6 +25,12 @@ export function FinalCtaSection() {
         <p className="mt-4 text-sm text-[#9B4D32] md:text-base">
           You’ll receive instant confirmation + event details.
         </p>
+        <p className="mt-3 text-sm text-[#9B4D32]/70 md:text-base">
+          You'll receive everything you need right after booking.
+        </p>
+        <p className="mt-3 text-sm font-medium text-[#9B4D32]/70 md:text-base">
+          Enrollment closes soon.
+        </p>
         <p className="mt-4 text-sm text-[#9B4D32] md:text-base">This experience is not recorded.</p>
         <p className="mt-4 text-sm text-[#9B4D32] md:text-base">
           You’ll leave with transformative tools you can return to anytime.

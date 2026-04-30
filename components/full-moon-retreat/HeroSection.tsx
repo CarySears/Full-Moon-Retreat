@@ -75,6 +75,28 @@ export function HeroSection() {
           <p className="mt-4 text-sm text-[#F2EDE2] md:text-base">
             Takes 60 seconds • Instant confirmation
           </p>
+          <p className="mt-2 text-sm text-[#F2EDE2]/80 md:text-base">
+            You'll receive everything you need right after booking.
+          </p>
+          <div className="mx-auto mt-8 max-w-[520px] rounded-2xl border border-[#F2EDE2]/25 bg-[rgba(155,77,50,0.35)] px-7 py-6 text-left backdrop-blur-sm">
+            <p className="text-sm font-semibold uppercase tracking-[0.15em] text-[#F2EDE2]/75">
+              Join the Full Moon Retreat
+            </p>
+            <p className="mt-3 text-base font-medium text-[#F2EDE2]">
+              May 2 • 11am–3pm ET &nbsp;·&nbsp; 4-hour live guided experience &nbsp;·&nbsp; $125 • Instant confirmation
+            </p>
+            <ul className="mt-4 space-y-1 text-sm text-[#F2EDE2]/90">
+              <li>✔ No experience needed</li>
+              <li>✔ Camera optional</li>
+              <li>✔ Join privately if you prefer</li>
+            </ul>
+            <p className="mt-4 text-sm text-[#F2EDE2]/75">
+              Spots are limited. This is a live event and will not be recorded.
+            </p>
+          </div>
+          <p className="mt-5 text-sm font-medium text-[#F2EDE2]/80 md:text-base">
+            Enrollment closes soon.
+          </p>
           <p className="mt-8 text-base font-medium text-[#F2EDE2] [text-shadow:0_2px_10px_rgba(0,0,0,0.45)] md:text-lg">
             <span className="block">Guided by Anna Brooke, 20+ years supporting life transitions</span>
             <span className="block">Featured in Huffington Post, BuzzFeed, and Page Six</span>
